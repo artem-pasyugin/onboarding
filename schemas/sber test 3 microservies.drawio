@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-04-16T08:01:48.771Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="m_C1LlLKvioqVbRkpGkT" version="21.1.8" type="github">
+  <diagram name="Page-1" id="345WdKWkSEyB4Mqzlnjt">
+    <mxGraphModel dx="2568" dy="1081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PTjqDmEFQRZTPLqSsYC3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTjqDmEFQRZTPLqSsYC3-1" target="PTjqDmEFQRZTPLqSsYC3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTjqDmEFQRZTPLqSsYC3-1" value="postgres" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="370" y="505" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PTjqDmEFQRZTPLqSsYC3-2" value="Goods" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTjqDmEFQRZTPLqSsYC3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTjqDmEFQRZTPLqSsYC3-4" target="PTjqDmEFQRZTPLqSsYC3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTjqDmEFQRZTPLqSsYC3-4" value="client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTjqDmEFQRZTPLqSsYC3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTjqDmEFQRZTPLqSsYC3-5" target="PTjqDmEFQRZTPLqSsYC3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTjqDmEFQRZTPLqSsYC3-5" value="admin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTjqDmEFQRZTPLqSsYC3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PTjqDmEFQRZTPLqSsYC3-6" target="PTjqDmEFQRZTPLqSsYC3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTjqDmEFQRZTPLqSsYC3-6" value="master" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTjqDmEFQRZTPLqSsYC3-14" value="POST /goods&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;name&quot;: &quot;Кулич&quot;, -- text&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;description&quot;: &quot;Вкусный свежий&quot;, -- text&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;price&quot;: 99.0, -- double&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;amount&quot;: 1 -- int&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;}&lt;/div&gt;result&lt;br&gt;&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;id&quot;: 1, -- int&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;name&quot;: &quot;Кулич&quot;, -- text&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;description&quot;: &quot;Вкусный свежий&quot;, -- text&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;price&quot;: 99.0, -- double&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;amount&quot;: 1 -- int&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;}&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;perimeterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="690" y="205" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PTjqDmEFQRZTPLqSsYC3-15" value="GET /goods&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;result&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;[&lt;br style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;name&quot;: &quot;Кулич&quot;, -- text&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;description&quot;: &quot;Вкусный свежий&quot;, -- text&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;price&quot;: 99.0, -- double&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;amount&quot;: 1 -- int&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;]&lt;/div&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;perimeterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="-11" y="230" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PTjqDmEFQRZTPLqSsYC3-16" value="PUT /goods/{id}&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;name&quot;: &quot;Кулич&quot;, -- text&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;description&quot;: &quot;Вкусный свежий ОЧЕНЬ&quot;, -- text&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;price&quot;: 100.0, -- double&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;amount&quot;: 2 -- int&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;}&lt;/div&gt;result&lt;br&gt;&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;id&quot;: 1, -- int&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;name&quot;: &quot;Кулич&quot;, -- text&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;description&quot;: &quot;Вкусный свежий ОЧЕНЬ&quot;, -- text&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;price&quot;: 100.0, -- double&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &quot;amount&quot;: 2 -- int&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;}&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;perimeterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="870" y="205" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PTjqDmEFQRZTPLqSsYC3-17" value="DELETE /goods/{id}&lt;br&gt;&lt;br&gt;result&lt;br&gt;&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;HTTP CODE 200&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;perimeterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="205" width="150" height="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
